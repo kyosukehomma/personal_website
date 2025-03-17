@@ -98,8 +98,14 @@
       
       <div class="row px-3 pt-3 pb-1 border-bottom" id="biography">
         <div class="col-xs-12">
-          <p>Professional Skills: VBA, SAS, SQL, Financial Accounting, Tax Law</p>
-          <p>Professional Experience: VBA Developer, Tax Auditor</p>
+          <p>Professional Skills: Python, MySQL, VBA, SAS, Financial Accounting, Tax Law</p>
+          <p>Professional Experience: Python / VBA Developer, Tax Auditor</p><br>
+          <p>This business aims to engage in the following activities:</p>
+          <ol>
+            <li>Contracted development of computer systems and provision of outsourcing services.</li>
+            <li>Consulting on business strategy and problem-solving, as well as acceptance of outsourced work.</li>
+            <li>All business activities incidental to the above.</li>
+          </ol>
         </div>
       </div>
       
@@ -111,7 +117,7 @@
       
       <div class="row px-3 pt-3 pb-1 border-bottom">
         <div class="col-xs-12">
-          <p>2024/04 - : &nbsp; Freelancer, learning Java and Python Programming at SCT Polytechnic College</p>
+          <p>2024/04 - : &nbsp; Freelance Engineer</p>
           <p>2023/01 - 2024/03 : &nbsp; Worked at International Trade Business Operations Department, Mizuho Bank, Ltd.</p>
           <p>2019/06 - 2022/05 : &nbsp; Worked at Audit Department, KANSAI Licenced Tax Accountant Company</p>
           <p>2011/04 - 2019/03 : &nbsp; Studied at Department of Law, Faculty of Law, Gakushuin University</p>
@@ -128,7 +134,7 @@
       
       <div class="row px-1 pt-5 border-bottom">
         <div class="col-12">
-          <h4>As VBA Developer</h4>
+          <h4>As Python / VBA Developer</h4>
         </div>
       </div>
 
@@ -136,34 +142,39 @@
         <div class="col-xs-12">
           <ul>
             <li>
-              <strong>複数予約まとめ自動化 (Excel VBA, Outlook VBA)</strong><br>
-              仕様概要 : 顧客から仕向送金依頼メールを受信すると添付ファイルから明細を保存、当該顧客の為替予約残高を為替Webシステムから取得、全ての為替予約が存在することを確認する。仕向送金依頼明細のうち、スポット分を除外して、為替予約分に一致したものを最大10明細ずつまとめる操作を勘定系システムに自動入力する。既存の仕向送金オペレーション用マクロに明細を転記する。<br>
-              担当業務 : 要求分析, 要件定義, 基本設計, 詳細設計, 実装, 試験, 運用保守<br><br>
+              <strong>Collecting and Storing Restaurant Information from a Website(Python, MySQL, Ubuntu, Docker, bash)</strong><br>
+              Specification Overview: Perform web scraping using Selenium on a Docker container with the appropriate browser driver and settings. Convert the collected data into a pandas DataFrame and then store it in MySQL using SQLAlchemy.<br>
+              Responsibilities: Requirement Analysis, Requirement Definition, Basic Design, Detailed Design, Implementation, Testing, Operation & Maintenance<br><br>
             </li>
             <li>
-              <strong>貿易保険手続の自動化 (Excel VBA, Outlook VBA, Powershell)</strong><br>
-              仕様概要 : 顧客からの輸出依頼申込書類をスキャンしたPDFファイルをOCRで読取り指定フォルダに保存する。スクリプト実行するとマクロが起動し、取引内容をテキストデータ化、保険会社が指定するテーブルに変換、メールに添付して保険会社宛てメールを作成、明細と送信記録をレコードする。16時以降にメールが送信されていない場合、管理者に注意喚起を促す。後日、保険会社から受信した保険証券から取引内容をOCRで読取り、申込完了としてレコードを更新する。<br>
-              担当業務 : 要求分析, 要件定義, 基本設計, 詳細設計, 実装, 試験, 運用保守<br><br>
+              <strong>Automation of Multiple Reservation Consolidation (Excel VBA, Outlook VBA)</strong><br>
+              Specification Overview: Upon receiving a remittance request email from a customer, the system saves the details from the attached file, retrieves the customer's foreign exchange reservation balance from the forex web system, and verifies that all forex reservations exist. Excluding spot transactions, it consolidates up to 10 matching forex reservations per transaction and automatically inputs them into the accounting system. The details are then transferred to an existing macro for remittance operations.<br>
+              Responsibilities: Requirement Analysis, Requirement Definition, Basic Design, Detailed Design, Implementation, Testing, Operation & Maintenance<br><br>
             </li>
             <li>
-              <strong>送金関係マネーロンダリングチェックツール (SAS, SQL, Excel VBA)</strong><br>
-              仕様概要 : 本部データベースから大阪外為事務部管轄の被仕向送金・仕向送金取引をユーザーが指定した条件で抽出し、送金先や取引内容からマネーロンダリングが疑わしいか否かを判定、条件に合致した場合は報告書テンプレートに抽出したレコードを転記して初鑑担当者に回覧する。<br>
-              担当業務 : 基本設計, 詳細設計, 実装, 試験, 運用保守<br><br>
+              <strong>Automation of Trade Insurance Procedures (Excel VBA, Outlook VBA, PowerShell)</strong><br>
+              Specification Overview: The system scans export application documents received from customers into PDF files, reads them via OCR, and saves them in a designated folder. When the script is executed, a macro is triggered to convert transaction details into text data, transform them into a table format specified by the insurance company, attach the data to an email, and send it to the insurer while recording the details and transmission logs. If the email is not sent after 4 PM, an alert is sent to the administrator. Later, the system reads the transaction details from the received insurance certificate via OCR and updates the records to mark the application as completed.<br>
+              Responsibilities: Requirement Analysis, Requirement Definition, Basic Design, Detailed Design, Implementation, Testing, Operation & Maintenance<br><br>
             </li>
             <li>
-              <strong>報告省令レート自動取得 (Excel VBA)</strong><br>
-              仕様概要 : 法定報告書を作成するため、日付データをもとに日本銀行ウェブサイトから報告省令レートを取得する。<br>
-              担当業務 : 基本設計, 詳細設計, 実装, 試験, 運用保守<br><br>
+              <strong>Money Laundering Check Tool for Remittance Transactions (SAS, SQL, Excel VBA)</strong><br>
+              Specification Overview: The system extracts incoming and outgoing remittance transactions under the jurisdiction of the Osaka Foreign Exchange Operations Department from the headquarters database based on user-specified conditions. It determines whether money laundering is suspected based on the recipient and transaction details. If the conditions are met, the extracted records are transferred to a report template and circulated to the initial reviewer.<br>
+              Responsibilities: Basic Design, Detailed Design, Implementation, Testing, Operation & Maintenance<br><br>
             </li>
             <li>
-              <strong>部内横断スキルチェックツール (Excel VBA, M-lang) </strong><br>
-              仕様概要 : 各行員にExcel形式のスキルチェックシートを展開。四半期ごとにスキル項目を点検し、課長が承認することでデータベースに集計される。部内全体・課別にスキル種目ごとの平均値・中央値、各自の偏差値をスキルチェックシートに還元、個人別に習得推移グラフを表示する。管理職向けには、課別に行員の習熟度を一覧表示し、スキル別に不足人材を可視化する。<br>
-              担当業務 : 要求分析, 要件定義, 基本設計, 詳細設計, 実装, 試験, 運用保守<br><br>
+              <strong>Automated Retrieval of Regulatory Reporting Exchange Rates (Excel VBA)</strong><br>
+              Specification Overview: To prepare statutory reports, the system retrieves regulatory reporting exchange rates from the Bank of Japan website based on date data.<br>
+              Responsibilities: Basic Design, Detailed Design, Implementation, Testing, Operation & Maintenance<br><br>
             </li>
             <li>
-              <strong>汎用機向けQRコード生成ツール (Excel VBA)</strong><br>
-              仕様概要 : 各種金融事務につき、汎用機に従来手入力していた項目を配列としてQRコード化した帳票を作成する。<br>
-              担当業務 : 基本設計, 詳細設計, 実装, 試験, 運用保守<br><br>
+              <strong>Cross-Departmental Skill Check Tool (Excel VBA, M-lang)</strong><br>
+              Specification Overview: Each employee receives a skill check sheet in Excel format. Quarterly, skill items are reviewed and approved by the section manager, after which the data is aggregated into a database. The system calculates and reflects the average and median values of skill items by department and section, as well as each individual's deviation score on their skill check sheet. It also displays a personal skill progression graph. For managerial staff, the system provides an overview of employees' proficiency levels by section and visualizes skill shortages by category.<br>
+              Responsibilities: Requirement Analysis, Requirement Definition, Basic Design, Detailed Design, Implementation, Testing, Operation & Maintenance<br><br>
+            </li>
+            <li>
+              <strong>QR Code Generation Tool for Mainframe Systems (Excel VBA)</strong><br>
+              Specification Overview: For various financial operations, the system creates forms with QR codes containing data arrays that were previously manually entered into the mainframe.<br>
+              Responsibilities: Basic Design, Detailed Design, Implementation, Testing, Operation & Maintenance<br><br>
             </li>
           </ul>
         </div>
